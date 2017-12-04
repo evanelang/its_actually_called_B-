@@ -1,9 +1,12 @@
 <resources>
+    <string name="category">Enter category name</string>
+    <string name="price">Enter amount</string>
+    <string name="add">+</string>
     <string name="app_name">Budgeting App</string>
     <string name="editText">Edit/New:</string>
     <string name="viewText">View:</string>
-    <string name ="titleText">Ready to Budget?:</string>
-    <string name ="dollarSign">$:</string>
-    <string name ="enterText">Enter:</string>
-    <string name ="hintText">input budget amount:</string>
+    <string name="titleText">Ready to Budget?:</string>
+    <string name="dollarSign">$:</string>
+    <string name="enterText">Enter:</string>
+    <string name="hintText">input budget amount:</string>
 </resources>
