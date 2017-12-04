@@ -1,4 +1,4 @@
-package com.example.evanlang.ec326;
+package com.example.evanlang.ec327;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ public class welcomeScreen extends AppCompatActivity {
     public void goToMain(View view){
 
     }
-
+        
 
 
 
