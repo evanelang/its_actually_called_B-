@@ -1,5 +1,6 @@
 package com.example.tannerknabe.budgetapp_v3;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -90,54 +91,76 @@ public class Categories extends AppCompatActivity {
     EditText cat1 = (EditText)findViewById(R.id.cat1);
     String name1 = cat1.getText().toString();
     EditText percent1 = (EditText)findViewById(R.id.percent1);
-    String perc1 = percent1.getText().toString();
+    Integer perc1 = Integer.parseInt(percent1.getText().toString());
 
     EditText cat2 = (EditText)findViewById(R.id.cat2);
     String name2 = cat2.getText().toString();
     EditText percent2 = (EditText)findViewById(R.id.percent2);
-    String perc2 = percent2.getText().toString();
+    Integer perc2 = Integer.parseInt(percent2.getText().toString());
 
     EditText cat3 = (EditText)findViewById(R.id.cat3);
     String name3 = cat3.getText().toString();
     EditText percent3 = (EditText)findViewById(R.id.percent3);
-    String perc3 = percent3.getText().toString();
+    Integer perc3 = Integer.parseInt(percent3.getText().toString());
 
     EditText cat4 = (EditText)findViewById(R.id.cat4);
     String name4 = cat4.getText().toString();
     EditText percent4 = (EditText)findViewById(R.id.percent4);
-    String perc4 = percent4.getText().toString();
+    Integer perc4 = Integer.parseInt(percent4.getText().toString());
 
     EditText cat5 = (EditText)findViewById(R.id.cat5);
     String name5 = cat5.getText().toString();
     EditText percent5 = (EditText)findViewById(R.id.percent5);
-    String perc5 = percent5.getText().toString();
+    Integer perc5 = Integer.parseInt(percent5.getText().toString());
 
     EditText cat6 = (EditText)findViewById(R.id.cat6);
     String name6 = cat6.getText().toString();
     EditText percent6 = (EditText)findViewById(R.id.percent6);
-    String perc6 = percent6.getText().toString();
+    Integer perc6 = Integer.parseInt(percent6.getText().toString());
 
     EditText cat7 = (EditText)findViewById(R.id.cat7);
     String name7 = cat7.getText().toString();
     EditText percent7 = (EditText)findViewById(R.id.percent7);
-    String perc7 = percent7.getText().toString();
+    Integer perc7 = Integer.parseInt(percent7.getText().toString());
 
     EditText cat8 = (EditText)findViewById(R.id.cat8);
     String name8 = cat8.getText().toString();
     EditText percent8 = (EditText)findViewById(R.id.percent8);
-    String perc8 = percent8.getText().toString();
+    Integer perc8 = Integer.parseInt(percent8.getText().toString());
 
     EditText cat9 = (EditText)findViewById(R.id.cat9);
     String name9 = cat9.getText().toString();
     EditText percent9 = (EditText)findViewById(R.id.percent9);
-    String perc9 = percent9.getText().toString();
+    Integer perc9 = Integer.parseInt(percent9.getText().toString());
 
     EditText cat10 = (EditText)findViewById(R.id.cat10);
     String name10 = cat10.getText().toString();
     EditText percent10 = (EditText)findViewById(R.id.percent10);
-    String perc10 = percent10.getText().toString();
+    Integer perc10 = Integer.parseInt(percent10.getText().toString());
+
+
+    String[] name_array = {name1,name2,name3,name4,name5,name6,name7,name8,name9,name10};
+    Integer[] percent_array = {perc1,perc2,perc3,perc4,perc5,perc6,perc7,perc8,perc9,perc10};
 
     public void  goToFour(View view){
+    //change to page four
+        //loop for sending partial array:
+        for (int i = 0; i < numCat; i++){
+            //send name_array[i]
+            //send percent_array[i]
+        }
+        //send numCat
+        Intent oldIntent = getIntent();
+        String budgetString = oldIntent.getStringExtra("BUDGET");
+        Double budgetDouble = Double.parseDouble(budgetString);
+        Intent nextPage = new Intent(Categories.this, main.class);
+        nextPage.putExtra("budget", budgetDouble);
+        nextPage.putExtra("percent_array", percent_array);
+        nextPage.putExtra("name_array", name_array);
+        nextPage.putExtra("numCat", numCat);
+        startActivity(nextPage);
+        //send budget
+
 
     }
 

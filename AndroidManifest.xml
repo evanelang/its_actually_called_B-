@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tannerknabe.budgetapp_v2">
+    package="com.example.tannerknabe.budgetapp_v3">
 
     <application
         android:allowBackup="true"
@@ -16,13 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".enterBudget"
-            android:label="Enter Budget"
-            android:parentActivityName=".Welcome">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Welcome"/>
-        </activity>
-
+        <activity android:name=".enterBudget" android:label="Enter Budget"
+            />
+        <activity android:name="Categories"></activity>
     </application>
 
 </manifest>

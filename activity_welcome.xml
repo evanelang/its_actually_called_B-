@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.tannerknabe.budgetapp_v2.Welcome">
+    tools:context="com.example.tannerknabe.budgetapp_v3.Welcome">
 
     <TextView
         android:id="@+id/Header"
@@ -46,10 +46,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="editMode"
         android:background="@color/colorPrimaryDark"
+        android:onClick="editMode"
         android:text="@string/editText"
         android:textColor="@android:color/white"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.553"
