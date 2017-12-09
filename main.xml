@@ -24,6 +24,7 @@
             android:layout_width="96dp"
             android:layout_height="38dp"
             android:text="Category 1"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="57dp" />
 
@@ -32,6 +33,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="79dp" />
 
@@ -40,6 +42,7 @@
             android:layout_width="89dp"
             android:layout_height="42dp"
             android:text="TextView"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="139dp"
             tools:layout_editor_absoluteY="57dp" />
 
@@ -49,6 +52,7 @@
             android:layout_height="45dp"
             android:ems="10"
             android:inputType="numberSigned"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="65dp" />
 
@@ -57,6 +61,7 @@
             android:layout_width="79dp"
             android:layout_height="41dp"
             android:text="Spent"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="228dp"
             tools:layout_editor_absoluteY="69dp"
             android:onClick="decrease1"/>
@@ -66,6 +71,7 @@
             android:layout_width="41dp"
             android:layout_height="38dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="126dp"
             tools:layout_editor_absoluteY="57dp" />
 
@@ -77,6 +83,7 @@
             android:layout_width="96dp"
             android:layout_height="38dp"
             android:text="Category 2"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="112dp" />
 
@@ -85,6 +92,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="134dp" />
 
@@ -93,6 +101,7 @@
             android:layout_width="89dp"
             android:layout_height="42dp"
             android:text="TextView"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="139dp"
             tools:layout_editor_absoluteY="112dp" />
 
@@ -101,6 +110,7 @@
             android:layout_width="58dp"
             android:layout_height="45dp"
             android:ems="10"
+            android:visibility="invisible"
             android:inputType="numberSigned"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="120dp" />
@@ -110,6 +120,7 @@
             android:layout_width="79dp"
             android:layout_height="41dp"
             android:text="Spent"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="228dp"
             tools:layout_editor_absoluteY="124dp"
             android:onClick="decrease2"/>
@@ -119,6 +130,7 @@
             android:layout_width="41dp"
             android:layout_height="38dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="126dp"
             tools:layout_editor_absoluteY="112dp" />
 
@@ -129,6 +141,7 @@
             android:layout_width="96dp"
             android:layout_height="38dp"
             android:text="Category 3"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="167dp" />
 
@@ -137,6 +150,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="189dp" />
 
@@ -145,6 +159,7 @@
             android:layout_width="89dp"
             android:layout_height="42dp"
             android:text="TextView"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="139dp"
             tools:layout_editor_absoluteY="169dp" />
 
@@ -154,6 +169,7 @@
             android:layout_height="45dp"
             android:ems="10"
             android:inputType="numberSigned"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="175dp" />
 
@@ -162,6 +178,7 @@
             android:layout_width="79dp"
             android:layout_height="41dp"
             android:text="Spent"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="228dp"
             tools:layout_editor_absoluteY="179dp"
             android:onClick="decrease3"/>
@@ -171,6 +188,7 @@
             android:layout_width="41dp"
             android:layout_height="38dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="126dp"
             tools:layout_editor_absoluteY="167dp" />
 
@@ -183,6 +201,7 @@
             android:layout_width="96dp"
             android:layout_height="38dp"
             android:text="Category 4"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="222dp" />
 
@@ -191,6 +210,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="244dp" />
 
@@ -199,6 +219,7 @@
             android:layout_width="89dp"
             android:layout_height="42dp"
             android:text="TextView"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="139dp"
             tools:layout_editor_absoluteY="222dp" />
 
@@ -207,6 +228,7 @@
             android:layout_width="58dp"
             android:layout_height="45dp"
             android:ems="10"
+            android:visibility="invisible"
             android:inputType="numberSigned"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="230dp" />
@@ -216,6 +238,7 @@
             android:layout_width="79dp"
             android:layout_height="41dp"
             android:text="Spent"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="228dp"
             tools:layout_editor_absoluteY="234dp"
             android:onClick="decrease4"/>
@@ -225,6 +248,7 @@
             android:layout_width="41dp"
             android:layout_height="38dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="126dp"
             tools:layout_editor_absoluteY="222dp" />
 
@@ -237,6 +261,7 @@
             android:layout_width="96dp"
             android:layout_height="38dp"
             android:text="Category 5"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="277dp" />
 
@@ -245,6 +270,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="299dp" />
 
@@ -253,6 +279,7 @@
             android:layout_width="89dp"
             android:layout_height="42dp"
             android:text="TextView"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="139dp"
             tools:layout_editor_absoluteY="277dp" />
 
@@ -262,6 +289,7 @@
             android:layout_height="45dp"
             android:ems="10"
             android:inputType="numberSigned"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="285dp" />
 
@@ -270,6 +298,7 @@
             android:layout_width="79dp"
             android:layout_height="41dp"
             android:text="Spent"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="228dp"
             tools:layout_editor_absoluteY="289dp"
             android:onClick="decrease5"/>
@@ -279,6 +308,7 @@
             android:layout_width="41dp"
             android:layout_height="38dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="126dp"
             tools:layout_editor_absoluteY="277dp" />
 
@@ -291,6 +321,7 @@
         android:layout_width="96dp"
         android:layout_height="38dp"
         android:text="Category 6"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="332dp" />
 
@@ -299,6 +330,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="354dp" />
 
@@ -307,6 +339,7 @@
         android:layout_width="89dp"
         android:layout_height="42dp"
         android:text="TextView"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="332dp" />
 
@@ -315,6 +348,7 @@
             android:layout_width="58dp"
             android:layout_height="45dp"
             android:ems="10"
+            android:visibility="invisible"
             android:inputType="numberSigned"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="340dp" />
@@ -324,6 +358,7 @@
             android:layout_width="79dp"
             android:layout_height="41dp"
             android:text="Spent"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="228dp"
             tools:layout_editor_absoluteY="344dp"
             android:onClick="decrease6"/>
@@ -333,6 +368,7 @@
         android:layout_width="41dp"
         android:layout_height="38dp"
         android:text="$"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="332dp" />
 
@@ -345,6 +381,7 @@
         android:layout_width="96dp"
         android:layout_height="38dp"
         android:text="Category 7"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="387dp" />
 
@@ -353,6 +390,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="409dp" />
 
@@ -361,6 +399,7 @@
         android:layout_width="89dp"
         android:layout_height="42dp"
         android:text="TextView"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="387dp" />
 
@@ -369,6 +408,7 @@
             android:layout_width="58dp"
             android:layout_height="45dp"
             android:ems="10"
+            android:visibility="invisible"
             android:inputType="numberSigned"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="395dp" />
@@ -378,6 +418,7 @@
         android:layout_width="79dp"
         android:layout_height="41dp"
         android:text="Spent"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="228dp"
         tools:layout_editor_absoluteY="399dp"
         android:onClick="decrease7"/>
@@ -387,6 +428,7 @@
         android:layout_width="41dp"
         android:layout_height="38dp"
         android:text="$"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="387dp" />
 
@@ -398,6 +440,7 @@
         android:layout_width="96dp"
         android:layout_height="38dp"
         android:text="Category 8"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="442dp" />
 
@@ -406,6 +449,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="464dp" />
 
@@ -414,6 +458,7 @@
         android:layout_width="89dp"
         android:layout_height="42dp"
         android:text="TextView"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="442dp" />
 
@@ -422,6 +467,7 @@
             android:layout_width="58dp"
             android:layout_height="45dp"
             android:ems="10"
+            android:visibility="invisible"
             android:inputType="numberSigned"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="450dp" />
@@ -431,6 +477,7 @@
         android:layout_width="79dp"
         android:layout_height="41dp"
         android:text="Spent"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="228dp"
         tools:layout_editor_absoluteY="454dp"
         android:onClick="decrease8"/>
@@ -440,6 +487,7 @@
         android:layout_width="41dp"
         android:layout_height="38dp"
         android:text="$"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="442dp" />
 
@@ -451,6 +499,7 @@
         android:layout_width="96dp"
         android:layout_height="38dp"
         android:text="Category 9"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="497dp" />
 
@@ -459,6 +508,7 @@
             android:layout_width="27dp"
             android:layout_height="45dp"
             android:text="$"
+            android:visibility="invisible"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="519dp" />
 
@@ -467,6 +517,7 @@
         android:layout_width="89dp"
         android:layout_height="42dp"
         android:text="TextView"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="497dp" />
 
@@ -475,6 +526,7 @@
             android:layout_width="58dp"
             android:layout_height="45dp"
             android:ems="10"
+            android:visibility="invisible"
             android:inputType="numberSigned"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="505dp" />
@@ -484,6 +536,7 @@
         android:layout_width="79dp"
         android:layout_height="41dp"
         android:text="Spent"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="228dp"
         tools:layout_editor_absoluteY="599dp"
         android:onClick="decrease9"/>
@@ -493,6 +546,7 @@
         android:layout_width="41dp"
         android:layout_height="38dp"
         android:text="$"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="497dp" />
 
@@ -505,6 +559,7 @@
         android:layout_width="96dp"
         android:layout_height="38dp"
         android:text="Category 10"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="552dp" />
 
@@ -513,6 +568,7 @@
         android:layout_width="27dp"
         android:layout_height="45dp"
         android:text="$"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="153dp"
         tools:layout_editor_absoluteY="574dp" />
 
@@ -521,6 +577,7 @@
         android:layout_width="89dp"
         android:layout_height="42dp"
         android:text="TextView"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="552dp" />
 
@@ -529,6 +586,7 @@
         android:layout_width="58dp"
         android:layout_height="45dp"
         android:ems="10"
+        android:visibility="invisible"
         android:inputType="numberSigned"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="560dp" />
@@ -538,6 +596,7 @@
         android:layout_width="79dp"
         android:layout_height="41dp"
         android:text="Spent"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="228dp"
         tools:layout_editor_absoluteY="564dp"
         android:onClick="decrease10"/>
@@ -547,6 +606,7 @@
         android:layout_width="41dp"
         android:layout_height="38dp"
         android:text="$"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="552dp" />
 
