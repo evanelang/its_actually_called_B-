@@ -58,7 +58,8 @@
             android:layout_height="41dp"
             android:text="Spent"
             tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="69dp" />
+            tools:layout_editor_absoluteY="69dp"
+            android:onClick="decrease1"/>
 
         <TextView
             android:id="@+id/Sign2Cat1"
@@ -110,7 +111,8 @@
             android:layout_height="41dp"
             android:text="Spent"
             tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="124dp" />
+            tools:layout_editor_absoluteY="124dp"
+            android:onClick="decrease2"/>
 
         <TextView
             android:id="@+id/Sign2Cat2"
@@ -161,7 +163,8 @@
             android:layout_height="41dp"
             android:text="Spent"
             tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="179dp" />
+            tools:layout_editor_absoluteY="179dp"
+            android:onClick="decrease3"/>
 
         <TextView
             android:id="@+id/Sign2Cat3"
@@ -214,7 +217,8 @@
             android:layout_height="41dp"
             android:text="Spent"
             tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="234dp" />
+            tools:layout_editor_absoluteY="234dp"
+            android:onClick="decrease4"/>
 
         <TextView
             android:id="@+id/Sign2Cat4"
@@ -267,7 +271,8 @@
             android:layout_height="41dp"
             android:text="Spent"
             tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="289dp" />
+            tools:layout_editor_absoluteY="289dp"
+            android:onClick="decrease5"/>
 
         <TextView
             android:id="@+id/Sign2Cat5"
@@ -320,7 +325,8 @@
             android:layout_height="41dp"
             android:text="Spent"
             tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="344dp" />
+            tools:layout_editor_absoluteY="344dp"
+            android:onClick="decrease6"/>
 
     <TextView
         android:id="@+id/Sign2Cat6"
@@ -373,7 +379,8 @@
         android:layout_height="41dp"
         android:text="Spent"
         tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="399dp" />
+        tools:layout_editor_absoluteY="399dp"
+        android:onClick="decrease7"/>
 
     <TextView
         android:id="@+id/Sign2Cat7"
@@ -425,7 +432,8 @@
         android:layout_height="41dp"
         android:text="Spent"
         tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="454dp" />
+        tools:layout_editor_absoluteY="454dp"
+        android:onClick="decrease8"/>
 
     <TextView
         android:id="@+id/Sign2Cat8"
@@ -477,7 +485,8 @@
         android:layout_height="41dp"
         android:text="Spent"
         tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="599dp" />
+        tools:layout_editor_absoluteY="599dp"
+        android:onClick="decrease9"/>
 
     <TextView
         android:id="@+id/Sign2Cat9"
@@ -530,7 +539,8 @@
         android:layout_height="41dp"
         android:text="Spent"
         tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="564dp" />
+        tools:layout_editor_absoluteY="564dp"
+        android:onClick="decrease10"/>
 
     <TextView
         android:id="@+id/Sign2Cat10"
